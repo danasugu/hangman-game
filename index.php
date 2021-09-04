@@ -1,6 +1,7 @@
 <?php
 
-$word = 'computer';
+$words =  ["papaya", "mango", "apricot", "banana"];
+$word = $words[array_rand($words)];
 
 $wordLength = strlen($word);
 
