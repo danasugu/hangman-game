@@ -1,6 +1,8 @@
 <?php
 
-$words =  ["papaya", "mango", "apricot", "banana"];
+// $words =  ["papaya", "mango", "apricot", "banana"];
+$words = file("words.txt");
+
 $word = $words[array_rand($words)];
 
 $wordLength = strlen($word);
