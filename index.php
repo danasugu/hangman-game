@@ -3,7 +3,7 @@
 
 $words = file("words.txt");
 
-$word = $words[array_rand($words)];
+$word = rtrim($words[array_rand($words)]);
 echo $word;
 echo "<br>";
 $wordLength = strlen($word);
